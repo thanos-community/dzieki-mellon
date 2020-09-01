@@ -11,7 +11,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/thanos-community/dzieki-mellon/pkg/testutil"
+	"github.com/thanos-community/mellon/pkg/testutil"
 	"github.com/pkg/errors"
 )
 

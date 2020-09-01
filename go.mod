@@ -1,4 +1,4 @@
-module github.com/thanos-community/dzieki-mellon
+module github.com/thanos-community/mellon
 
 go 1.14
 

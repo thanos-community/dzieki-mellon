@@ -1,9 +1,9 @@
-# mdox
+# Mellon (The Elvish word for "Friend." Used by Gandalf to open the gates to the mines of Moria.)
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/thanos-community/dzieki-mellon)
-[![Latest Release](https://img.shields.io/github/release/thanos-community/dzieki-mellon.svg?style=flat-square)](https://github.com/thanos-community/dzieki-mellon/releases/latest)
-[![CI](https://github.com/thanos-community/dzieki-mellon/workflows/go/badge.svg)](https://github.com/thanos-community/dzieki-mellon/actions?query=workflow%3Ago)
-[![Go Report Card](https://goreportcard.com/badge/github.com/thanos-community/dzieki-mellon)](https://goreportcard.com/report/github.com/thanos-community/dzieki-mellon)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/thanos-community/mellon)
+[![Latest Release](https://img.shields.io/github/release/thanos-community/mellon.svg?style=flat-square)](https://github.com/thanos-community/mellon/releases/latest)
+[![CI](https://github.com/thanos-community/mellon/workflows/go/badge.svg)](https://github.com/thanos-community/mellon/actions?query=workflow%3Ago)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thanos-community/mellon)](https://goreportcard.com/report/github.com/thanos-community/mellon)
 
 CLI oriented to help you with maintaining high quality project docs and website with ease.
 
@@ -15,20 +15,20 @@ CLI oriented to help you with maintaining high quality project docs and website 
 ## Installing
 
 ```shell
-go get github.com/thanos-community/dzieki-mellon && go mod tidy
+go get github.com/thanos-community/mellon && go mod tidy
 ```
 
 or via [bingo](github.com/bwplotka/bingo) if want to pin it:
 
 ```shell
-bingo get -u github.com/thanos-community/dzieki-mellon
+bingo get -u github.com/thanos-community/mellon
 ```
 
 ## Usage
 
-[embedmd]:# (dzieki-mellon-help.txt $)
+[embedmd]:# (mellon-help.txt $)
 ```$
-usage: dzieki-mellon [<flags>] <command> [<args> ...]
+usage: mellon [<flags>] <command> [<args> ...]
 
 TBD.
 

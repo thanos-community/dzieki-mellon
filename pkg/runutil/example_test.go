@@ -11,7 +11,7 @@ import (
 	"log"
 	"time"
 
-	"github.com/thanos-community/dzieki-mellon/pkg/runutil"
+	"github.com/thanos-community/mellon/pkg/runutil"
 	"github.com/pkg/errors"
 )
 

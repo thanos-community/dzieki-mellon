@@ -13,7 +13,7 @@ import (
 	"github.com/oklog/run"
 	"github.com/pkg/errors"
 	"gopkg.in/alecthomas/kingpin.v2"
-	"github.com/thanos-community/dzieki-mellon/pkg/extkingpin"
+	"github.com/thanos-community/mellon/pkg/extkingpin"
 )
 
 const (

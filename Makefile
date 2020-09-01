@@ -39,9 +39,9 @@ help: ## Displays help.
 all: format build
 
 .PHONY: build
-build: ## Build dzieki-mellon.
-	@echo ">> Building dzieki-mellon"
-	@go install github.com/thanos-community/dzieki-mellon
+build: ## Build mellon.
+	@echo ">> Building mellon"
+	@go install github.com/thanos-community/mellon
 
 .PHONY: check-comments
 check-comments: ## Checks Go code comments if they have trailing period (excludes protobuffers and vendor files). Comments with more than 3 spaces at beginning are omitted from the check, example: '//    - foo'.
@@ -55,9 +55,9 @@ deps: ## Ensures fresh go.mod and go.sum.
 
 .PHONY: docs
 docs: build $(EMBEDMD) ## Generates docs from flags.
-	@$(GOBIN)/dzieki-mellon 2> dzieki-mellon-help.txt
+	@$(GOBIN)/mellon 2> mellon-help.txt
 	@$(EMBEDMD) -w *.md
-	@rm -f dzieki-mellon-help.txt
+	@rm -f mellon-help.txt
 
 .PHONY: format
 format: ## Formats Go code including imports and cleans up white noise.
