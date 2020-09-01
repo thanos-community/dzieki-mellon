@@ -62,7 +62,7 @@ Features:
 
 	var g run.Group
 	g.Add(func() error {
-		return runner(nil, logger, nil, nil, nil, false)
+		return runner(logger)
 	}, func(err error) {
 		cancel()
 	})
@@ -99,7 +99,7 @@ func interrupt(logger log.Logger, cancel <-chan struct{}) error {
 
 func registerTBD(ctx context.Context, app *extkingpin.App) {
 	cmd := app.Command("tbd", "yolo.")
-	cmd.Setup(func(ctx) error {
+	cmd.Run(func(logger log.Logger) error {
 		fmt.Println("yolo")
 		return nil
 	})

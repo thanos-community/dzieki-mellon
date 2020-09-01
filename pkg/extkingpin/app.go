@@ -5,10 +5,10 @@
 package extkingpin
 
 import (
-	"context"
 	"fmt"
 	"os"
 
+	"github.com/go-kit/kit/log"
 	"github.com/pkg/errors"
 	"gopkg.in/alecthomas/kingpin.v2"
 )
@@ -17,7 +17,7 @@ type FlagClause interface {
 	Flag(name, help string) *kingpin.FlagClause
 }
 
-type Run func(ctx context.Context) error
+type Run func(logger log.Logger) error
 
 type AppClause interface {
 	FlagClause

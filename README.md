@@ -1,9 +1,9 @@
 # mdox
 
-[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/bwplotka/mdox)
-[![Latest Release](https://img.shields.io/github/release/bwplotka/mdox.svg?style=flat-square)](https://github.com/bwplotka/mdox/releases/latest)
-[![CI](https://github.com/bwplotka/mdox/workflows/go/badge.svg)](https://github.com/bwplotka/mdox/actions?query=workflow%3Ago)
-[![Go Report Card](https://goreportcard.com/badge/github.com/bwplotka/mdox)](https://goreportcard.com/report/github.com/bwplotka/mdox)
+[![go.dev reference](https://img.shields.io/badge/go.dev-reference-007d9c?logo=go&logoColor=white&style=flat-square)](https://pkg.go.dev/github.com/thanos-community/dzieki-mellon)
+[![Latest Release](https://img.shields.io/github/release/thanos-community/dzieki-mellon.svg?style=flat-square)](https://github.com/thanos-community/dzieki-mellon/releases/latest)
+[![CI](https://github.com/thanos-community/dzieki-mellon/workflows/go/badge.svg)](https://github.com/thanos-community/dzieki-mellon/actions?query=workflow%3Ago)
+[![Go Report Card](https://goreportcard.com/badge/github.com/thanos-community/dzieki-mellon)](https://goreportcard.com/report/github.com/thanos-community/dzieki-mellon)
 
 CLI oriented to help you with maintaining high quality project docs and website with ease.
 
@@ -15,13 +15,13 @@ CLI oriented to help you with maintaining high quality project docs and website 
 ## Installing
 
 ```shell
-go get github.com/bwplotka/mdox && go mod tidy
+go get github.com/thanos-community/dzieki-mellon && go mod tidy
 ```
 
 or via [bingo](github.com/bwplotka/bingo) if want to pin it:
 
 ```shell
-bingo get -u github.com/bwplotka/mdox
+bingo get -u github.com/thanos-community/dzieki-mellon
 ```
 
 ## Usage
