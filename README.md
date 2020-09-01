@@ -26,11 +26,13 @@ bingo get -u github.com/thanos-community/dzieki-mellon
 
 ## Usage
 
-[embedmd]:# (statectl-help.txt $)
+[embedmd]:# (dzieki-mellon-help.txt $)
 ```$
-usage: statectl [<flags>] <command> [<args> ...]
+usage: dzieki-mellon [<flags>] <command> [<args> ...]
 
-Control state of your deployments.
+TBD.
+
+Features:
 
 Flags:
   -h, --help               Show context-sensitive help (also try --help-long and
@@ -43,8 +45,8 @@ Commands:
   help [<command>...]
     Show help.
 
-  propose
-    Propose change of cluster state.
+  tbd
+    yolo.
 
 
 ```
